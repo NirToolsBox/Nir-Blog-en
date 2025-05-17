@@ -1,6 +1,6 @@
 title: "Nir Blog"
-description: "Un espace pour partager les connaissances"
-baseurl: "/Nir-Blog-fr"
+description: "A place to share knowledge"
+baseurl: "/Nir-Blog-en"
 url: "https://nirtoolsbox.github.io"
 theme: minima
 permalink: /:year/:month/:title/
