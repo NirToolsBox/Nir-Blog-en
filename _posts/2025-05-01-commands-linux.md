@@ -10,7 +10,6 @@ excerpt: "Discover how to effectively use Linux commands to manage your system, 
 
 Welcome to this comprehensive guide on Linux commands. If you're already familiar with Linux, you probably know that the terminal is one of the most powerful tools at your disposal. This guide will help you understand and effectively use Linux commands to manage your system, install software, and much more.
 
-<br>
 
 ## Why Use the Terminal?
 
@@ -21,7 +20,6 @@ The terminal allows you to execute tasks quickly and efficiently. Unlike graphic
 3. **Power**: The terminal gives you complete control over your system.
 4. **Flexibility**: You can combine commands to create custom workflows.
 
-<br>
 
 ## Basic Commands
 

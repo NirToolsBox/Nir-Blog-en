@@ -12,7 +12,6 @@ When you decide to dive into the Linux universe, you quickly discover that there
 
 Whether you're just curious, a developer wanting to move beyond Windows or macOS, or an enthusiast eager to deeply understand how an operating system works, there's a Linux distribution for you. In this article, we'll compare the main distributions according to their complexity level, to help you choose the one that best suits your profile and objectives.
 
-<br>
 
 ## I. Why So Many Different Distributions?
 
@@ -24,13 +23,11 @@ The key is to understand that all these distributions share the same Linux kerne
 - **Target audience**: beginners, developers, system administrators
 - **Update method**: stable versions vs. rolling releases
 
-<br>
 
 ## II. Beginner Level: "I want it to work right away"
 
 If you're discovering Linux for the first time, it's best to start with a distribution that's simple to install, intuitive, and offers a complete graphical environment from the start. These distributions have been designed to provide a smooth transition from Windows or macOS.
 
-<br>
 
 ### a. Ubuntu
 
@@ -44,7 +41,6 @@ If you're discovering Linux for the first time, it's best to start with a distri
 
 **Ideal for**: Users who want to discover Linux without complications, developers looking for a stable environment, businesses migrating to Linux.
 
-<br>
 
 ### b. Linux Mint
 
@@ -57,7 +53,6 @@ If you're discovering Linux for the first time, it's best to start with a distri
 
 **Ideal for**: Users coming from Windows who want to find their bearings, owners of older computers, those who prioritize stability.
 
-<br>
 
 ### c. Zorin OS
 
@@ -69,7 +64,6 @@ If you're discovering Linux for the first time, it's best to start with a distri
 
 **Ideal for**: Users who "just want it to work" without learning new concepts, businesses looking for a Windows alternative.
 
-<br>
 
 ### What to remember about the beginner level
 
@@ -77,13 +71,11 @@ These distributions allow daily use of Linux without needing to know command lin
 
 **Recommendation**: Start with **Ubuntu** if you want the most documented solution, or **Linux Mint** if you're coming from Windows.
 
-<br>
 
 ## III. Intermediate Level: "I want to understand a bit more how it works"
 
 If you've already dabbled in Linux or want to learn more about the system, some distributions offer an experience closer to the fundamentals of Linux, without being overly complex.
 
-<br>
 
 ### a. Debian
 
@@ -98,7 +90,6 @@ If you've already dabbled in Linux or want to learn more about the system, some 
 
 **Ideal for**: Users who want to understand the foundations of Linux, aspiring system administrators, those who prioritize stability over novelty.
 
-<br>
 
 ### b. Fedora
 
@@ -113,7 +104,6 @@ If you've already dabbled in Linux or want to learn more about the system, some 
 
 **Ideal for**: Developers who want a cutting-edge environment, testers of new technologies, those who like to have the latest versions.
 
-<br>
 
 ### c. openSUSE
 
@@ -128,7 +118,6 @@ If you've already dabbled in Linux or want to learn more about the system, some 
 
 **Ideal for**: Users who want more control without the complexity of Arch, future system administrators, those who appreciate advanced graphical tools.
 
-<br>
 
 ### What to remember about the intermediate level
 
@@ -136,13 +125,11 @@ These distributions require a bit more reading and understanding, but they allow
 
 **Recommendation**: **Debian** if you prioritize stability and want to understand the basics, **Fedora** if you like new features and development.
 
-<br>
 
 ## IV. Advanced Level: "I want to control everything, even if I have to do it myself"
 
 Some distributions make no concessions to simplicity but allow total control of your system. They are often chosen by experienced users who like to understand, customize, and optimize every aspect of their environment.
 
-<br>
 
 ### a. Arch Linux
 
@@ -164,7 +151,6 @@ Some distributions make no concessions to simplicity but allow total control of 
 
 **Ideal for**: Enthusiasts who want to understand everything, experienced users looking for a minimal system, those who like technical challenges.
 
-<br>
 
 ### b. Void Linux
 
@@ -185,7 +171,6 @@ Some distributions make no concessions to simplicity but allow total control of 
 
 **Ideal for**: Advanced users looking for a systemd alternative, those who want a truly different distribution, convinced minimalists.
 
-<br>
 
 ### c. Gentoo
 
@@ -207,7 +192,6 @@ Some distributions make no concessions to simplicity but allow total control of 
 
 **Ideal for**: Free software purists, those who want to optimize every bit of performance, system developers, computing masochists (with affection!).
 
-<br>
 
 ### What to remember about the advanced level
 
@@ -215,13 +199,11 @@ These distributions are demanding and can be frustrating for a beginner. But the
 
 **Recommendation**: **Arch Linux** if you want to learn everything without excessive complication, **Gentoo** if you are ready to dedicate a lot of time to it.
 
-<br>
 
 ## V. Extreme Level: "I want to build my own system"
 
 Finally, there are projects for those who want to build everything themselves, by hand, without an installation interface, sometimes even without a package manager at first. These distributions are not intended for daily use, but rather for pure learning or research.
 
-<br>
 
 ### a. Linux From Scratch (LFS)
 
@@ -241,7 +223,6 @@ Finally, there are projects for those who want to build everything themselves, b
 
 **Major challenges**: A project of several weeks, high risk of failure, fragile system, not practical for daily use.
 
-<br>
 
 ### b. Experimental Projects
 
@@ -249,7 +230,6 @@ Finally, there are projects for those who want to build everything themselves, b
 
 **Extreme use cases**: Some enthusiasts use multiple machines for their experiments: one for compiling, one for testing, one for debugging. These setups are reserved for laboratories or research environments.
 
-<br>
 
 ### What to remember about the extreme level
 
@@ -257,7 +237,6 @@ These projects are reserved for low-level enthusiasts, compilation, and a total 
 
 **Recommendation**: Try **LFS** if you have a lot of free time and a passion for pure technology.
 
-<br>
 
 ## VI. Summary Table: Which Distribution for Which Profile?
 
@@ -275,11 +254,8 @@ These projects are reserved for low-level enthusiasts, compilation, and a total 
 | **LFS** | Expert             | Education, research           |
 
 
-<br>
-<br>
 
 ## VII. Tips for Making the Right Choice
-<br>
 
 ### a. Assess Your Current Level
 
@@ -301,7 +277,6 @@ These projects are reserved for low-level enthusiasts, compilation, and a total 
 - You like solving complex problems
 - The terminal is your friend
 
-<br>
 
 ### b. Define Your Objectives
 
@@ -312,13 +287,11 @@ These projects are reserved for low-level enthusiasts, compilation, and a total 
 **For performance**: **Arch Linux**, **Gentoo**, **Void Linux** <br>
 **For experimentation**: **Arch Linux**, **Gentoo**, **LFS** <br>
 
-<br>
 
 ### c. Test Before Installing
 
 Most distributions offer "Live" versions that you can test from a USB stick without installing anything on your computer. This is the best way to see if you like the interface and if your hardware is compatible.
 
-<br>
 
 ### d. Plan Your Progression
 
@@ -330,7 +303,6 @@ Most distributions offer "Live" versions that you can test from a USB stick with
 
 Don't skip steps! Each level provides essential knowledge for the next.
 
-<br>
 
 ## VIII. Conclusion
 

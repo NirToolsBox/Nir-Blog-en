@@ -10,22 +10,18 @@ excerpt: "Discover the key differences between TypeScript and JavaScript."
 
 JavaScript and TypeScript are two widely used languages in web development. JavaScript is the base language, while TypeScript is an extension of JavaScript that adds additional features. In this article, we will explore the important differences between these two languages in a simple and clear manner.
 
-<br>
 
 ## What is JavaScript?
 
 JavaScript is a programming language primarily used to make web pages interactive. It allows you to add dynamic features to websites, such as animations, interactive forms, and much more. JavaScript is executed directly in the browser, making it very fast and efficient for web applications.
 
-<br>
 
 ## What is TypeScript?
 
 TypeScript is a superset of JavaScript developed by Microsoft. It adds static types to JavaScript, which means you can define types for your variables, functions, and objects. This allows errors to be detected before the code is even executed, making development safer and more reliable.
 
-<br>
 
 # Key Differences between TypeScript and JavaScript
-<br>
 
 ## 1. Static Typing vs Dynamic Typing
 
@@ -51,7 +47,6 @@ message = 42; // Error: Type 'number' is not assignable to type 'string'
 let user: string = "John";
 user = { name: "John", age: 30 }; // Error: Type '{ name: string; age: number; }' is not assignable to type 'string'
 ```
-<br>
 
 ## 2. Error Detection
 
@@ -76,7 +71,6 @@ function calculateArea(width: number, height: number): number {
 
 console.log(calculateArea(5, 10));
 ```
-<br>
 
 ## 3. Object-Oriented
 
@@ -148,7 +142,6 @@ let employee = new Employee("Bob", "developer");
 employee.greet(); // "Hello, Bob"
 employee.introduce(); // "My name is Bob and I am a developer"
 ```
-<br>
 
 ## 4. Interfaces
 
@@ -185,7 +178,6 @@ greet(person); // Displays "Hello, Alice"
 // Compilation error - Missing 'name' property
 greet({ firstName: "Bob" }); // Error: Argument of type '{ firstName: string; }' is not assignable to parameter of type 'Person'.
 ```
-<br>
 
 ## 5. Modules
 
@@ -231,7 +223,6 @@ let person = new Person("Alice");
 person.greet(); // Displays "Hello, Alice"
 ```
 
-<br>
 
 # Conclusion
 

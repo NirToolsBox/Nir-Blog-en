@@ -19,12 +19,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <button class="mobile-menu-toggle" aria-label="Menu mobile">
-        <i class="fas fa-bars"></i>
-    </button>
-
-    <aside class="sidebar">
-        <div class="sidebar-inner">
+    <header class="navbar-container">
+        <div class="navbar-inner">
             <h1 class="site-title">
                 <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
             </h1>
@@ -32,14 +28,23 @@
                 <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
                 <a href="{{ '/blog' | relative_url }}" class="nav-link {% if page.url == '/blog/' %}active{% endif %}">Articles</a>
                 <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
-                <a href="https://nirtoolsbox.github.io/Nir-Blog-fr/" class="nav-link">Nir Blog FR</a>
+                <a href="https://nirtoolsbox.github.io/Nir-Blog-fr/" class="nav-link login-button">FR</a>
             </nav>
+            <button class="mobile-menu-toggle" aria-label="Menu mobile">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
-    </aside>
+    </header>
 
     <main class="content">
         {{ content }}
     </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>Designed by <a href="https://github.com/NirToolsBox" target="_blank" rel="noopener noreferrer">Nir</a>. The code source is available on <a href="https://github.com/NirToolsBox/Nir-Blog-en" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+        </div>
+    </footer>
 
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
