@@ -28,12 +28,13 @@ permalink: /blog/
         <div class="post-content">
             <span class="post-category">{{ post.category }}</span>
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
             <div class="post-meta">
-                <time>{{ post.date | date: "%d/%m/%Y" }}</time>
+                <time>{{ post.date | date: "%B %d, %Y" }}</time>
                 <span>•</span>
                 <span>{% include reading-time.html content=post.content %}</span>
             </div>
-            <p class="post-excerpt">{{ post.excerpt }}</p>
+            <a href="{{ post.url | relative_url }}" class="post-readmore">Read More &rarr;</a>
         </div>
     </article>
     {% endfor %}
