@@ -14,9 +14,19 @@
     gtag('config', 'G-93FP3D6Z88');
     </script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}">
     <link rel="shortcut icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script>
+        (function() {
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark-mode') {
+                document.documentElement.classList.add('dark-mode');
+            }
+        })();
+    </script>
 </head>
 <body>
     <header class="navbar-container">
@@ -29,6 +39,11 @@
                 <a href="{{ '/blog' | relative_url }}" class="nav-link {% if page.url == '/blog/' %}active{% endif %}">Articles</a>
                 <a href="{{ '/about' | relative_url }}" class="nav-link {% if page.url == '/about/' %}active{% endif %}">About</a>
                 <a href="https://nirtoolsbox.github.io/Nir-Blog-fr/" class="nav-link login-button">FR</a>
+
+                <button id="theme-toggle" class="theme-toggle-button" aria-label="Basculer le thème">
+                    <i class="fas fa-sun" id="sun-icon"></i>
+                    <i class="fas fa-moon" id="moon-icon"></i>
+                </button>
             </nav>
             <button class="mobile-menu-toggle" aria-label="Menu mobile">
                 <i class="fas fa-bars"></i>
@@ -42,10 +57,11 @@
 
     <footer class="site-footer">
         <div class="footer-content">
-            <p>Designed by <a href="https://github.com/NirToolsBox" target="_blank" rel="noopener noreferrer">Nir</a>. The code source is available on <a href="https://github.com/NirToolsBox/Nir-Blog-en" target="_blank" rel="noopener noreferrer">Github</a>.</p>
+            <p>Designed by <a href="https://nir-dev.netlify.app/en"target="_blank">Nir</a>. The code source is available on <a href="https://github.com/NirToolsBox/Nir-Blog-en" target="_blank" rel="noopener noreferrer">Github</a>.</p>
         </div>
     </footer>
 
     <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
 </body>
 </html>
